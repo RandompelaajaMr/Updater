@@ -1,3 +1,3 @@
 # Updater
 
-This is DEV readme (dont mine this yet please)
+This is DEV readme (dont mind this yet please)

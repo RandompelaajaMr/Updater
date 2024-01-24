@@ -1,3 +1,3 @@
 # Updater
 
-This is main readme (dont mind this yet please)
+This is readme (dont mind this yet please)

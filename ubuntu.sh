@@ -1,1 +1,2 @@
-This is ubuntu, nice to meet ya o/ 
+#!/bin/sh
+echo testing, dont mind me

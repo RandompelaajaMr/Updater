@@ -1,2 +1,2 @@
 #!/bin/sh
-testing, dont mind me
+echo testing, dont mind me

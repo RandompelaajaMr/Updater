@@ -1,9 +1,7 @@
 #!/bin/sh
-FILES='/tmp/updater'
-mkdir /tmp/updater
-cd $FILES || exit 
-pwd 
-wget -q https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/ubuntu.sh 
-bash ./ubuntu.sh 
+mkdir -p /tmp/updater  
+FILES='/tmp/updater' 
+wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/ubuntu.sh 
+bash $FILES/ubuntu.sh 
 sudo rm -rf /tmp/updater 
 cd ~ || exit

@@ -1,1 +1,1 @@
-( https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/ubuntu.sh )
+( source https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/ubuntu.sh )

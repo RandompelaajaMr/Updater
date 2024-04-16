@@ -1,1 +1,1 @@
-( exec https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/ubuntu.sh )
+( https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/ubuntu.sh )

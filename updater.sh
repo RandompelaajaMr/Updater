@@ -5,23 +5,23 @@ FILES='/tmp/updater'
 IDLIKE=$(awk '{print $1}' <<< "$ID_LIKE")
 
 if  [[ "$ID" = "debian" ]]; then 
-	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/Files/debian.sh 
+	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/debian.sh 
 	bash $FILES/debian.sh 
 	exit
 elif [[ "$ID" = "ubuntu" ]]; then
-	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/Files/ubuntu.sh 
+	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/ubuntu.sh 
 	bash $FILES/ubuntu.sh 
 	exit
 elif [[ "$ID" = "arch" ]]; then
-	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/Files/arch.sh 
+	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/arch.sh 
 	bash $FILES/arch.sh 
 	exit
 elif [[ "$IDLIKE" = "debian" ]]; then 
-	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/Files/likedebian.sh 
+	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/likedebian.sh 
 	bash $FILES/likedebian.sh 
 	exit
 elif [[ "$IDLIKE" = "ubuntu" ]]; then
-	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/DEV/Files/likeubuntu.sh 
+	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/likeubuntu.sh 
 	bash $FILES/likeubuntu.sh 
 	exit
 else

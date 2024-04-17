@@ -1,2 +1,2 @@
 #!/bin/bash
-echo testing, dont mind me
+echo 'This is clean Ubuntu'

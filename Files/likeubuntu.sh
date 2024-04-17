@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo 'This is based on ubuntu'
+echo 'This is based on Ubuntu'

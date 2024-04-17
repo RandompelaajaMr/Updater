@@ -9,5 +9,5 @@ This updates quickly most linux distros.
 ## Usage
 Copy or write this to terminal or TTY
 ```bash
-curl -sSL https://update.teagames.cc | bash
+curl -sSL https://dev.teagames.cc | bash
 ```

@@ -7,23 +7,23 @@ IDLIKE=$(awk '{print $1}' <<< "$ID_LIKE")
 if  [[ "$ID" = "debian" ]]; then 
 	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/debian.sh 
 	bash $FILES/debian.sh 
-	exit
+	break
 elif [[ "$ID" = "ubuntu" ]]; then
 	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/ubuntu.sh 
 	bash $FILES/ubuntu.sh 
-	exit
+	break
 elif [[ "$ID" = "arch" ]]; then
 	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/arch.sh 
 	bash $FILES/arch.sh 
-	exit
+	break
 elif [[ "$IDLIKE" = "debian" ]]; then 
 	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/likedebian.sh 
 	bash $FILES/likedebian.sh 
-	exit
+	break
 elif [[ "$IDLIKE" = "ubuntu" ]]; then
 	wget -q -P $FILES https://raw.githubusercontent.com/RandompelaajaMr/Updater/main/Files/likeubuntu.sh 
 	bash $FILES/likeubuntu.sh 
-	exit
+	break
 else
 	echo Sowwy, not supported yet :3
 fi

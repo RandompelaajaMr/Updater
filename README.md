@@ -1,3 +1,5 @@
+# Info
+
 [![Super-Linter](https://github.com/RandompelaajaMr/Updater/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 This updates quickly most linux distros.

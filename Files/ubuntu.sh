@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'This is clean Ubuntu'
+echo 'Running code for Ubuntu'

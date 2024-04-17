@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'This is Arch'
+echo 'Running code for Arch'

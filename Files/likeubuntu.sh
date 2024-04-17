@@ -1,2 +1,2 @@
-#!/bin/bash 
-echo 'This is based on Ubuntu'
+#!/bin/bash
+echo 'Running code for Ubuntu'
